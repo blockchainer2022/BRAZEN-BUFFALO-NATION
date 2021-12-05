@@ -305,8 +305,9 @@ const Home = (props: HomeProps) => {
 
        <div className={classes.icon}>
           <a href="#"><img src={Discord} alt="" /></a>
-          <a href="#"><img src={Twitter} alt="" /></a>
-          <a href="#"><img src={Insta} alt="" /></a>
+          <a href="https://twitter.com/brazenbuffalo?s=21"  rel="noreferrer" target="_blank"><img src={Twitter} alt="" /></a>
+          
+          <a href="https://www.instagram.com/brazenbuffalonation/"  rel="noreferrer" target="_blank"><img src={Insta} alt="" /></a>
        </div>
         <h4>Mint</h4>
         <p  style={{marginTop:10,fontSize:18}}>Mint Time Is November 21st 18:00 UTC time</p>
