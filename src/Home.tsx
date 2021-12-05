@@ -8,6 +8,8 @@ import { makeStyles } from "@material-ui/core/styles";
 import Alert from "@material-ui/lab/Alert";
 import Discord from "./assets/Discord.svg"
 import Twitter from "./assets/Twitter.svg"
+import Insta from "./assets/insta.png"
+
 import * as anchor from "@project-serum/anchor";
 
 import { LAMPORTS_PER_SOL } from "@solana/web3.js";
@@ -103,7 +105,11 @@ const useStyles = makeStyles((theme)=>({
 
     ,"& a":{
       display:"block",
-      marginLeft:10
+      marginLeft:15,
+      width:40,
+      "& img":{
+        width:"100%"
+      }
     }
   },
   bottom:{
@@ -300,6 +306,7 @@ const Home = (props: HomeProps) => {
        <div className={classes.icon}>
           <a href="#"><img src={Discord} alt="" /></a>
           <a href="#"><img src={Twitter} alt="" /></a>
+          <a href="#"><img src={Insta} alt="" /></a>
        </div>
         <h4>Mint</h4>
         <p  style={{marginTop:10,fontSize:18}}>Mint Time Is November 21st 18:00 UTC time</p>
