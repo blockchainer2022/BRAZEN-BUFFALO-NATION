@@ -304,7 +304,7 @@ const Home = (props: HomeProps) => {
         <p> The Brazen Buffalo Nation represents 1,776 of the most patriotic and loyal buffalo ever to graze the plains</p>   
 
        <div className={classes.icon}>
-          <a href="#"><img src={Discord} alt="" /></a>
+          <a href="https://discord.gg/3fePEPJ6XC" rel="noreferrer" target="_blank"><img src={Discord} alt="" /></a>
           <a href="https://twitter.com/brazenbuffalo?s=21"  rel="noreferrer" target="_blank"><img src={Twitter} alt="" /></a>
           
           <a href="https://www.instagram.com/brazenbuffalonation/"  rel="noreferrer" target="_blank"><img src={Insta} alt="" /></a>
