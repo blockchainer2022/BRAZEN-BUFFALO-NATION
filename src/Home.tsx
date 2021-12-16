@@ -370,7 +370,7 @@ const Home = (props: HomeProps) => {
    
           <div className={classes.bottom}>
             <h6>Minting cost?</h6>
-            <p>1 sol for 1 sol for each Buffalo</p>
+            <p>1 sol for each Buffalo</p>
           </div>
 
         </Container>
