@@ -319,11 +319,11 @@ const Home = (props: HomeProps) => {
       )}
         {wallet && <p className="wallet-item"><span> Balance: </span> <span> {(balance || 0).toLocaleString()} SOL </span> </p>}
 
-{wallet && <p  className="wallet-item"> <span>Total Available: </span> <span> {itemsAvailable - 1} </span></p>}
+{wallet && <p  className="wallet-item"> <span>Total Available: </span> <span> {itemsAvailable  - 1} </span></p>}
 
-{wallet && <p className="wallet-item"><span> Redeemed: </span> <span> {itemsRedeemed - 1}</span></p>}
+{wallet && <p className="wallet-item"><span> Redeemed: </span> <span> {itemsRedeemed > 1776? itemsRedeemed - 1 : itemsRedeemed }</span></p>}
 
-{wallet && <p className="wallet-item"><span>Remaining: </span> <span>{itemsRemaining - 1}</span> </p>}
+{wallet && <p className="wallet-item"><span>Remaining: </span> <span>{itemsRemaining - 1 }</span> </p>}
         
        </div>
       
