@@ -310,7 +310,7 @@ const Home = (props: HomeProps) => {
           <a href="https://www.instagram.com/brazenbuffalonation/"  rel="noreferrer" target="_blank"><img src={Insta} alt="" /></a>
        </div>
         <h4>Mint</h4>
-        <p  style={{marginTop:10,fontSize:18}}>Mint Time Is November 21st 18:00 UTC time</p>
+        {/* <p  style={{marginTop:10,fontSize:18}}>Mint Time Is November 21st 18:00 UTC time</p> */}
        { difference < 0 ?
        <div>
        <div className={classes.walletWrapper}>
